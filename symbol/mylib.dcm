@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Resistor_0603
+D Generic Resistor Package
+K PROD_ID:
+$ENDCMP
+#
+#End Doc Library
