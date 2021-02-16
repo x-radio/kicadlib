@@ -1,3 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Resistor_0603
+D Generic Resistor Package
+K PROD_ID:
+$ENDCMP
+#
+$CMP Resistor_1206
+D Generic Resistor Package
+K PROD_ID:
+$ENDCMP
+#
+$CMP cap_0603
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
 #End Doc Library
