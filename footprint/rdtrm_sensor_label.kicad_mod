@@ -1,0 +1,15 @@
+(module rdtrm_sensor_label (layer F.Cu) (tedit 60325DBA)
+  (fp_text reference REF** (at 17 -2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value rdtrm_sensor_label (at 7 -1.9) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 0) (end 19 0) (layer F.SilkS) (width 0.2))
+  (fp_line (start 19 0) (end 19 9) (layer F.SilkS) (width 0.2))
+  (fp_line (start 19 9) (end 0 9) (layer F.SilkS) (width 0.2))
+  (fp_line (start 0 9) (end 0 0) (layer F.SilkS) (width 0.2))
+  (fp_text user "S/N: RT01139" (at 9.5 4.25) (layer F.SilkS)
+    (effects (font (size 1.7 1.7) (thickness 0.2)))
+  )
+)

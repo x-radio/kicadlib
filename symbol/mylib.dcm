@@ -1,5 +1,60 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 101_1206_1%
+D resistor 1206 101 1%
+$ENDCMP
+#
+$CMP 10u_0603
+D capasitor 0603 10u 10v MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS
+K cap capacitor
+$ENDCMP
+#
+$CMP 10u_1206
+D MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 50V 1206 ROHS
+K cap capacitor
+F Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf
+$ENDCMP
+#
+$CMP 1N4007
+D DIODES - GENERAL PURPOSE 1KV 1A 1.1V @ 1A SMA(DO-214AC) ROHS
+K diode
+F ~
+$ENDCMP
+#
+$CMP 220_1206
+D resistor 1206 220 1%
+$ENDCMP
+#
+$CMP 220p_0603
+D capasitor 0603 220p 50v MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 220PF 50V 0603 ROHS
+K cap capacitor
+$ENDCMP
+#
+$CMP 222_0603_1%
+D resistor 0603 2201 1%
+$ENDCMP
+#
+$CMP 223_0603_1%
+D resistor 0603 2202 1%
+$ENDCMP
+#
+$CMP AMS1117-3.3
+D  LOW DROPOUT REGULATORS(LDO) POSITIVE FIXED 1.3V @ 800MA 15V 3.3V 1A SOT-223 ROHS
+K Fixed Voltage Regulator 1A Positive LDO
+F 1811201117_Advanced-Monolithic-Systems-AMS-AMS1117-3-3_C6186.pdf
+$ENDCMP
+#
+$CMP LM358
+D GENERAL PURPOSE AMPLIFIERS GENERAL PURPOSE 2 3V ~ 32V, ±1.5V ~ 16V 1MHZ 0.6 V/US SOIC-8_150MIL ROHS
+K PROD_ID:IC-09172
+$ENDCMP
+#
+$CMP NRF24L01
+D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
+K Low Power RF Transciever breakout carrier
+F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
 $CMP Resistor_0603
 D Generic Resistor Package
 K PROD_ID:
@@ -10,10 +65,28 @@ D Generic Resistor Package
 K PROD_ID:
 $ENDCMP
 #
-$CMP cap_0603
-D Unpolarized capacitor
-K cap capacitor
+$CMP SMBJ13A
+D TVS SMB(DO-214AA) ROHS
+K diode
 F ~
+$ENDCMP
+#
+$CMP STM32F030F4Px
+D ARM Cortex-M0 MCU, 16KB flash, 4KB RAM, 48MHz, 2.4-3.6V, 15 GPIO, TSSOP-20
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf
+$ENDCMP
+#
+$CMP ULN2003
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16 DARLINGTON TRANSISTOR ARRAY DRIVER SOIC-16_150MIL ROHS
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+$CMP blue_0603
+D led blue 0603 LIGHT EMITTING DIODES (LED) BLUE 465~475NM 11.5~28.5MCD@5MA TOP VIEW 0603 ROHS
+K LED diode
+F https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf
 $ENDCMP
 #
 #End Doc Library
