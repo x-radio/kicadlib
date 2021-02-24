@@ -4,6 +4,12 @@ $CMP 101_1206_1%
 D resistor 1206 101 1%
 $ENDCMP
 #
+$CMP 10k_evm3w
+D Potentiometer smd trimmer
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP 10u_0603
 D capasitor 0603 10u 10v MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS
 K cap capacitor
@@ -51,6 +57,12 @@ $ENDCMP
 $CMP 470u_ECAP_TH
 D capasitor 0603 10u 10v MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS
 K cap capacitor
+$ENDCMP
+#
+$CMP 74HC595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K HCMOS SR 3State
+F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
 $ENDCMP
 #
 $CMP 822_0603_1%
@@ -130,6 +142,12 @@ $CMP blue_0805
 D led blue 0603 LIGHT EMITTING DIODES (LED) BLUE 465~475NM 11.5~28.5MCD@5MA TOP VIEW 0603 ROHS
 K LED diode
 F Hubei-KENTO-Elec-Blue-light_C2293.pdf
+$ENDCMP
+#
+$CMP lcd_1602
+D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
+K display LCD dot-matrix
+F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
 $ENDCMP
 #
 #End Doc Library
