@@ -150,6 +150,12 @@ K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #
+$CMP buzzer
+D Buzzer, polarized, beeper 
+K quartz resonator ceramic zoomer beeper
+F ~
+$ENDCMP
+#
 $CMP lcd_1602
 D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
 K display LCD dot-matrix

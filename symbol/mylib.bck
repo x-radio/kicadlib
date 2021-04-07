@@ -144,6 +144,18 @@ K LED diode
 F Hubei-KENTO-Elec-Blue-light_C2293.pdf
 $ENDCMP
 #
+$CMP btn_6x6
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP buzzer
+D Buzzer, polarized, beeper 
+K quartz resonator ceramic zoomer beeper
+F ~
+$ENDCMP
+#
 $CMP lcd_1602
 D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
 K display LCD dot-matrix
