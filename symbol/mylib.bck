@@ -86,6 +86,12 @@ K PROD_ID:IC-09172
 F ON-Semicon-ON-MC34063ADR2G_C32078.pdf
 $ENDCMP
 #
+$CMP MP1470
+D High-Efficiency, 2A, 16V, 500kHz Synchronous, Step-Down Converter, TSOT-23-6
+K buck converter
+F https://www.monolithicpower.com/pub/media/document/MP1470_r1.02.pdf
+$ENDCMP
+#
 $CMP NRF24L01
 D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
 K Low Power RF Transciever breakout carrier
@@ -151,7 +157,7 @@ F ~
 $ENDCMP
 #
 $CMP buzzer
-D Buzzer, polarized, beeper 
+D Buzzer, polarized, beeper
 K quartz resonator ceramic zoomer beeper
 F ~
 $ENDCMP

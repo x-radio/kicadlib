@@ -31,6 +31,11 @@ $CMP 1R_1206
 D resistor 1206 1R 1%
 $ENDCMP
 #
+$CMP 1u_0603
+D capasitor 0603 1u
+K cap capacitor
+$ENDCMP
+#
 $CMP 220UH_CD54
 D Inductor
 K inductor choke coil reactor magnetic
@@ -84,6 +89,12 @@ $CMP MC34063
 D GENERAL PURPOSE AMPLIFIERS GENERAL PURPOSE 2 3V ~ 32V, ±1.5V ~ 16V 1MHZ 0.6 V/US SOIC-8_150MIL ROHS
 K PROD_ID:IC-09172
 F ON-Semicon-ON-MC34063ADR2G_C32078.pdf
+$ENDCMP
+#
+$CMP MP1470
+D High-Efficiency, 2A, 16V, 500kHz Synchronous, Step-Down Converter, TSOT-23-6
+K buck converter
+F https://www.monolithicpower.com/pub/media/document/MP1470_r1.02.pdf
 $ENDCMP
 #
 $CMP NRF24L01
@@ -151,7 +162,7 @@ F ~
 $ENDCMP
 #
 $CMP buzzer
-D Buzzer, polarized, beeper 
+D Buzzer, polarized, beeper
 K quartz resonator ceramic zoomer beeper
 F ~
 $ENDCMP
