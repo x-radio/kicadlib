@@ -36,12 +36,6 @@ D capasitor 0603 1u
 K cap capacitor
 $ENDCMP
 #
-$CMP 220UH_CD54
-D Inductor
-K inductor choke coil reactor magnetic
-F ~
-$ENDCMP
-#
 $CMP 220_1206
 D resistor 1206 220 1%
 $ENDCMP
@@ -78,6 +72,12 @@ $CMP AMS1117-3.3
 D  LOW DROPOUT REGULATORS(LDO) POSITIVE FIXED 1.3V @ 800MA 15V 3.3V 1A SOT-223 ROHS
 K Fixed Voltage Regulator 1A Positive LDO
 F 1811201117_Advanced-Monolithic-Systems-AMS-AMS1117-3-3_C6186.pdf
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
 $ENDCMP
 #
 $CMP LM358
@@ -165,6 +165,11 @@ $CMP buzzer
 D Buzzer, polarized, beeper
 K quartz resonator ceramic zoomer beeper
 F ~
+$ENDCMP
+#
+$CMP cd54
+D inductor IHLP-2525CZ-01
+K inductor choke coil reactor magnetic
 $ENDCMP
 #
 $CMP lcd_1602
