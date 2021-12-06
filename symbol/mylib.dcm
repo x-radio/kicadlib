@@ -178,4 +178,10 @@ K display LCD dot-matrix
 F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
 $ENDCMP
 #
+$CMP lcd_1602_4pinData
+D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
+K display LCD dot-matrix
+F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
+$ENDCMP
+#
 #End Doc Library

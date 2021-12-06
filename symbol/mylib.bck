@@ -58,12 +58,6 @@ D capasitor 0603 10u 10v MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0
 K cap capacitor
 $ENDCMP
 #
-$CMP 4R7
-D inductor IHLP-2525CZ-01
-K inductor choke coil reactor magnetic
-F https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf
-$ENDCMP
-#
 $CMP 74HC595
 D 8-bit serial in/out Shift Register 3-State Outputs
 K HCMOS SR 3State
@@ -171,6 +165,11 @@ $CMP buzzer
 D Buzzer, polarized, beeper
 K quartz resonator ceramic zoomer beeper
 F ~
+$ENDCMP
+#
+$CMP cd54
+D inductor IHLP-2525CZ-01
+K inductor choke coil reactor magnetic
 $ENDCMP
 #
 $CMP lcd_1602
