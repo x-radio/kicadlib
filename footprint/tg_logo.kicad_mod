@@ -1,9 +1,10 @@
-(module tg_logo (layer F.Cu) (tedit 6033443F)
-  (fp_text reference G*** (at -0.75 -4.5) (layer F.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
+(module tg_logo (layer F.Cu) (tedit 61BDE44D)
+  (attr virtual)
+  (fp_text reference G*** (at 0 -4.5) (layer F.Fab) hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
-  (fp_text value LOGO (at -0.25 7) (layer F.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  (fp_text value LOGO (at 0 -4.5) (layer F.Fab) hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (fp_poly (pts (xy 4.059723 1.560607) (xy 4.126161 1.573209) (xy 4.180536 1.596696) (xy 4.224587 1.628916)
     (xy 4.270879 1.680441) (xy 4.306077 1.745565) (xy 4.331779 1.828065) (xy 4.348191 1.920875)
